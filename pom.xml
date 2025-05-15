@@ -8,10 +8,17 @@
 		<version>3.4.5</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+<<<<<<< HEAD
 	<groupId>com.example</groupId>
 	<artifactId>demo</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SecurityUserDatabase</name>
+=======
+	<groupId>com.security</groupId>
+	<artifactId>SecTut</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>SecTut</name>
+>>>>>>> a0255cfc0eee627e72a4d3b5e9ea33c13b22a4a2
 	<description>Demo project for Spring Boot</description>
 	<url/>
 	<licenses>
@@ -51,6 +58,7 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
+<<<<<<< HEAD
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
@@ -60,6 +68,12 @@
 			<scope>runtime</scope>
 		</dependency>
 
+=======
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+>>>>>>> a0255cfc0eee627e72a4d3b5e9ea33c13b22a4a2
 	</dependencies>
 
 	<build>
